@@ -1,0 +1,42 @@
+body {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+	background-color: #F0ECEE;
+}
+a {
+	text-decoration: none;
+	color: #88898B;
+}
+a:hover {
+	color: #FF4850;
+}
+em {
+	font-style: normal;
+	color: #FF4850;
+}
+header {
+	font-weight: 400;
+	font-size: 125%;
+}
+h1 {
+	font-weight: 600;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+article p {
+	color: #88898B;
+}
+.button {
+	padding: 10px;
+	border-radius: 15px;
+	background-color: #FF4850;
+	color: #F0ECEE;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+.button:hover {
+	background-color: #CCC;
+}
