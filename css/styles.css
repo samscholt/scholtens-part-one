@@ -14,18 +14,13 @@ em {
 	font-style: normal;
 	color: #FF4850;
 }
-header {
+h2 {
 	font-weight: 400;
-	font-size: 125%;
 }
 h1 {
 	font-weight: 600;
 }
-nav ul {
-	list-style-type: none;
-	padding: 0;
-}
-article p {
+p {
 	color: #88898B;
 }
 .button {
@@ -39,4 +34,42 @@ article p {
 }
 .button:hover {
 	background-color: #CCC;
+}
+#navigation ul {
+	list-style-type: none;
+	padding: 0;
+}
+#box {
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+}
+#topbar {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 768px) {
+	body {
+		background-image: url("../images/bulldog.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	li {
+		display: inline;
+		margin-right: 10px;
+	}
+	.button {
+		width: auto;
+	}
+	#box {
+		margin: 40px;
+	}
+	#topbar {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	#main-content {
+		width: 40%;
+	}
 }
